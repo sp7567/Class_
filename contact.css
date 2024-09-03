@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+ul {
+    background-color: rgb(188, 182, 173);
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 0 0 14px 14px;
+    height: 45px;
+    font-size: 1.1rem;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+figure {
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figcaption {
+    width: fit-content;
+    padding: 5px;
+    color: rgb(127, 46, 41);
+    text-decoration: dashed;
+}
+
+/* article h2 {
+    font-size: 3.7rem;
+} */
+
+p {
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+table {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+table caption {
+    padding: 10px;
+    font-size: larger;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black; /* Border around table cells */
+    padding: 20px; /* Adjust padding as needed */
+    border-collapse: collapse;
+}
+
+tr {
+    border-collapse: collapse; /* Ensures borders collapse into a single line */
+}
